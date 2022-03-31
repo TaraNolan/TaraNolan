@@ -1,5 +1,5 @@
 body{
-    background: url('/images/strawberry.webp')
+    background-image: url('./images/strawberry.webp')
 }
 
 
@@ -12,4 +12,24 @@ p {
 div {
     text-align: center;
 
+}
+
+#cat {
+    
+    
+}
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#gallery > img {
+    width: 100%;
+    height: auto;
+    border: solid 2px white
 }
